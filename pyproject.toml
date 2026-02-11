@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "3d-rubiks-cube"
+version = "0.1.0"
+description = "3D representation rubik's cube"
+authors = ["Ruan Gustavo Moretti <ruan.gustavo.moretti10@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+vpython = "^7.6.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
